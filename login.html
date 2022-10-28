@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  <title ></title>
+  <style>
+  *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background-color:skyblue;
+ background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)),url(https://www.intelrealsense.com/wp-content/uploads/2020/04/header_robotic_automation-1024x576.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height:1000px;
+  
+}
+h1{
+  font-size:60px;
+  color:white;
+  
+}
+ .container
+{
+    position: relative;
+    height: 80vh;
+    text-align: center;
+    overflow: hidden;
+}
+.login .acc{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .login
+{
+    background:rgba( 255, 255, 255, 0.25 );
+    box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    text-align: center;
+    backdrop-filter:blur( 4px );
+    -webkit-backdrop-filter:blur( 4px );
+    border-radius:10px;
+    border:1px solid rgba( 255, 255, 255, 0.18 );
+    padding:20px;
+    height: 450px;
+    width: 600px;
+    font-weight: 500;
+    box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    position:absolute ;
+    top: 40%;
+    font-size: x-large;
+    border-radius: 20px;
+    left: 50%;
+    line-height: 35px;
+    transform: translate(-50%,-50%);
+    background-color:purple;
+    border:7px solid yellow;
+}
+.login input
+{
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border:3px solid rgb(196, 190, 190);
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+}
+.login input:focus
+{
+    width: 250px;
+    transition-duration: 0.5s;
+    border-color: greenyellow;
+}
+.login button
+{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    background: rgb(2, 48, 4);
+}
+.login button:hover
+{
+    transform:scale(1.1);
+    background: rgb(76, 141, 12);
+}
+.login .new
+{
+    width: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 500;
+    background:rgb(52, 53, 53);
+    color:white;
+}
+</style>
+</head>
+
+<body>
+  <br>
+   <br>
+  <center><h1 id="1">LOGIN PAGE</center></h1>
+  
+   <br>
+
+  <br>
+    <div class="container">
+        <div class="login">
+            <h2>Sign In </h2><br>
+            <form action="/Homepage" method="post">
+                <label for="username"><i class="fa fa-user-circle-o"></i> Username / Email:</label><br>
+
+                <input type="text" id="username" name="email" required><br>
+
+                <label for="psd"><i class="fa fa-lock"></i> Password:</label><br>
+
+                <input type="password" id="psd" name="password"  required><br><br>
+
+                <input type="submit" style:"background-color=red;" value="submit"><br>
+
+                <span class="acc"> If you don't have an account <span><a href="/register1"style="color:orange;font-size:20px">Register now</a></span></span><br>
+             Login with &nbsp;:&nbsp;<i class="fa fa-google new"></i>&nbsp;&nbsp;<i class="fa fa-facebook new"></i>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
